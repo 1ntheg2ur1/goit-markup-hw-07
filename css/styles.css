@@ -11,12 +11,6 @@
 
 /* Відключення стандартної стилізації списків та посилань */
 
-.list {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -44,6 +38,12 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .section {
@@ -460,15 +460,11 @@ img {
   overflow: hidden;
 }
 
-.activity {
-  padding-top: 0;
-}
-
 .benefits-list {
   display: flex;
 }
 
-.benefits-heading {
+.benefits__heading {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -476,19 +472,11 @@ img {
   margin-bottom: 10px;
 }
 
-.benefits-item {
+.benefits__item {
   width: 270px;
 }
 
-.benefits-item:not(:first-child) {
-  margin-left: 30px;
-}
-
-.benefits-icon {
-  display: block;
-}
-
-.thumb {
+.benefits__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -499,7 +487,19 @@ img {
   margin-bottom: 30px;
 }
 
+.benefits__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.benefits__icon {
+  display: block;
+}
+
 /* Чим ми займаємось? */
+
+.activity {
+  padding-top: 0;
+}
 
 .list.activity-list {
   display: flex;
