@@ -3,6 +3,8 @@
 @import './base/reset';
 @import './base/section';
 @import './base/container';
+@import './base/body';
+@import './base/img';
 
 // utils
 
@@ -13,8 +15,7 @@
 
 @import './components/logo';
 @import './components/title';
-@import './components/body';
-@import './components/img';
+@import './components/mixin';
 @import './components/button';
 @import './components/social-list';
 @import './components/link';

@@ -11,12 +11,12 @@
     line-height: 1.2;
     color: var(--logo-part-color);
 
-    &--black {
-      color: #000000;
+    &--white {
+      @include colorized(var(--main-color));
     }
 
-    &--white {
-      color: var(--main-color);
+    &--black {
+      @include colorized($logo-bottom-color);
     }
   }
 
