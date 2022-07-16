@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-text-color: #757575;
   --secondary-text-color: #212121;
   --logo-part-color: #2196f3;
@@ -9,16 +9,12 @@
   --main-font-weight: 400;
 }
 
-/* Відключення стандартної стилізації списків та посилань */
-
 h1,
 h2,
 h3,
 p {
   margin: 0;
 }
-
-/* Загальні властивості сторінки */
 
 body {
   font-family: var(--main-font), sans-serif;
@@ -52,20 +48,17 @@ img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px solid tomato; */
-}
+} */
 
-.link {
-  text-decoration: none;
-
+/* .link {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Список навігації + пошта та номер */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -139,10 +132,10 @@ img {
 .contact__icon {
   fill: currentColor;
   margin-right: 10px;
-}
+} */
 
 /* Блок-герой */
-
+/* 
 .hero {
   text-align: center;
   background-color: #c4c4c4;
@@ -200,12 +193,10 @@ img {
 }
 
 .button:hover,
-.button:focus,
-.subscribe-button:hover,
-.subscribe-button:focus {
+.button:focus {
   background-color: #188ce8;
-}
-
+} */
+/* 
 .backdrop {
   position: fixed;
   top: 0;
@@ -442,7 +433,7 @@ img {
   margin-top: 30px;
 }
 
-/* Переваги */
+
 
 .visually-hidden,
 .modal-check__checkbox {
@@ -456,8 +447,8 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
+} */
+/* 
 .benefits__list {
   display: flex;
 }
@@ -491,10 +482,10 @@ img {
   text-transform: uppercase;
   color: var(--secondary-text-color);
   margin-bottom: 10px;
-}
+} */
 
 /* Чим ми займаємось? */
-
+/* 
 .activity {
   padding-top: 0;
 }
@@ -538,11 +529,11 @@ img {
   text-transform: uppercase;
   color: var(--main-color);
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* Команда */
 
-.team-section {
+/* .team-section {
   background-color: var(--bcnd-col);
 }
 
@@ -581,8 +572,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   margin-bottom: 16px;
-}
-
+} */
+/* 
 .social-list {
   display: flex;
 }
@@ -628,10 +619,10 @@ img {
 
 .social-list__icon {
   fill: currentColor;
-}
+} */
 
 /* Постійні клієнти */
-
+/* 
 .customers-list {
   display: flex;
   justify-content: center;
@@ -671,11 +662,11 @@ img {
 .customers-list__icon {
   display: block;
   fill: currentColor;
-}
+} */
 
 /* Адреса та контакти (футер) */
 
-.footer {
+/* .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -688,14 +679,14 @@ img {
 
 .adress {
   width: 231px;
-}
+} */
 
-.logo--bottom {
+/* .logo--bottom {
   display: block;
   margin-bottom: 20px;
-}
+} */
 
-.adress__item--bottom:not(:last-child) {
+/* .adress__item--bottom:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -709,12 +700,12 @@ img {
 
 .adress__link--transp {
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* Секція заохочення */
 
 
-.encourage-box {
+/* .encourage-box {
   margin-left: 70px;
 }
 
@@ -724,9 +715,9 @@ img {
   text-transform: uppercase;
   color: var(--main-color);
   margin-bottom: 20px;
-}
+} */
 
-.social-list__link--white {
+/* .social-list__link--white {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--main-color);
 }
@@ -734,8 +725,8 @@ img {
 .social-list__link--white:hover,
 .social-list__link--white:active {
   background-color: var(--logo-part-color);
-}
-
+} */
+/* 
 .subscribe-form {
   display: flex;
 
@@ -775,7 +766,6 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
   background-color: transparent;
 }
 
@@ -795,11 +785,11 @@ img {
 
 .subscribe-form__icon {
   margin-left: 10px;
-}
+} */
 
 
 /* Поточна сторінка */
-
+/* 
 .nav__link--current {
   color: var(--logo-part-color);
   position: relative;
@@ -816,10 +806,10 @@ img {
   left: 0;
   background-color: var(--logo-part-color);
   border-radius: 2px;
-}
+} */
 
 /* Стилізація Portfolio */
-
+/* 
 .radio {
   display: flex;
   justify-content: center;
@@ -833,9 +823,7 @@ img {
 
 .radio__button {
   padding: 6px 22px;
-}
 
-.radio__button {
   font-family: var(--main-font), sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -859,12 +847,11 @@ img {
   background-color: var(--logo-part-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.card-set {
+/* .card-set {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 30px; */
   justify-content: center;
   align-items: center;
 }
@@ -901,9 +888,9 @@ img {
 .card__thumb {
   position: relative;
   overflow: hidden;
-}
+} */
 
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -920,8 +907,8 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
-}
-
+} */
+/* 
 .card:hover .overlay,
 .card:focus .overlay {
   transform: translateY(0);
@@ -949,11 +936,11 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-}
+} */
 
 /* Властивості hover та focus на всі посилання*/
 
-.link:hover,
+/* .link:hover,
 .link:focus {
   color: var(--logo-part-color);
-}
+} */
