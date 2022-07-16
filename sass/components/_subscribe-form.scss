@@ -27,7 +27,7 @@
 
     align-self: flex-end;
 
-    fill: #ffffff;
+    fill: var(--main-color);
   }
 
   &__icon {
@@ -38,7 +38,7 @@
 .subscribe-form__input {
   align-items: center;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: $placeholder-color;
   font-size: 16px;
   line-height: 1.25;
 
@@ -48,13 +48,13 @@
   padding-bottom: 15px;
   padding-left: 16px;
 
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid $subscribe-brdr-col;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
   background-color: transparent;
 
   &:not(:placeholder-shown) {
-    color: #ffffff;
+    color: var(--main-color);
   }
 }

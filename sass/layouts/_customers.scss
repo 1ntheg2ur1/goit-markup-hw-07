@@ -6,35 +6,35 @@
     display: block;
     fill: currentColor;
   }
-}
 
-.customers-list__item {
-  width: 170px;
-  height: 92px;
+  &__item {
+    width: 170px;
+    height: 92px;
 
-  &--right:not(:last-child) {
-    margin-right: 30px;
+    &--right:not(:last-child) {
+      margin-right: 30px;
+    }
   }
-}
 
-.customers-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  width: 100%;
-  height: 100%;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  color: #afb1b8;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $social-link-color;
+    border-radius: 4px;
+    color: $social-link-color;
 
-  transition-property: color, border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    color: var(--logo-part-color);
-    border-color: var(--logo-part-color);
+    &:hover,
+    &:focus {
+      color: var(--logo-part-color);
+      border-color: var(--logo-part-color);
+    }
   }
 }

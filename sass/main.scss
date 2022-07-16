@@ -8,8 +8,6 @@
 
 @import './utils/fonts';
 @import './utils/vars';
-@import './utils/visually-hidden';
-
 
 // components
 
@@ -21,10 +19,13 @@
 @import './components/social-list';
 @import './components/link';
 @import './components/subscribe-form';
+@import './components/modal-cont';
+@import './components/checkbox';
 @import './components/current';
 @import './components/radio-btn';
 @import './components/card';
 @import './components/overlay';
+@import './components/placeholder';
 
 // layout
 
