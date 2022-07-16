@@ -1,3 +1,5 @@
+@import './fonts';
+
 // base
 @import './base/normalize';
 @import './base/reset';
@@ -8,14 +10,12 @@
 
 // utils
 
-@import './utils/fonts';
 @import './utils/vars';
 
 // components
 
 @import './components/logo';
 @import './components/title';
-@import './components/mixin';
 @import './components/button';
 @import './components/social-list';
 @import './components/link';
