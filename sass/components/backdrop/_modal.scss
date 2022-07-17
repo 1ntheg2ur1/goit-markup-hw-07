@@ -12,9 +12,11 @@
   border-radius: 4px;
 
   transform: translate(-50%, -50%) scale(1);
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @include transition(transform);
+  // transition-property: transform;
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &__form-field {
     display: flex;

@@ -843,6 +843,8 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   width: 100%;
   padding: 63px 24px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
@@ -851,8 +853,6 @@ img {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
 }
 .card:hover .overlay, .card:focus .overlay {
   -webkit-transform: translateY(0);

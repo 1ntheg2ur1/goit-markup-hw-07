@@ -30,10 +30,11 @@
     border: 1px solid;
     border-color: $input-border-color;
     outline: transparent;
-
-    transition-property: border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    @include transition(border-color);
+    // transition-property: border-color;
+    // transition-duration: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &__input:focus + &__icon,
