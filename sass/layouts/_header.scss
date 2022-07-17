@@ -2,9 +2,9 @@
   border-bottom: 1px solid $line-color;
 
   &__container {
-      display: flex;
-      align-items: center;
-    }
+    display: flex;
+    align-items: center;
+  }
 }
 
 .nav {
@@ -48,6 +48,10 @@
   }
 
   &__link {
+    display: flex;
+    align-items: center;
+    color: var(--main-text-color);
+    fill: var(--main-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -57,16 +61,8 @@
     color: var(--secondary-text-color);
   }
 
-  &__link {
-    display: flex;
-    align-items: center;
-    color: var(--main-text-color);
-    fill: var(--main-text-color);
-  }
-
   &__icon {
     fill: currentColor;
     margin-right: 10px;
   }
 }
-

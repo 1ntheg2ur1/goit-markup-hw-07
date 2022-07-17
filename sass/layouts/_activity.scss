@@ -5,6 +5,15 @@
     display: flex;
   }
 
+  &__item {
+    position: relative;
+    z-index: 1;
+
+    &--left:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
+
   &__text {
     display: flex;
     align-items: center;
@@ -21,14 +30,5 @@
     text-transform: uppercase;
     color: var(--main-color);
     background-color: $activity-bgnd-col;
-  }
-}
-
-.activity__item {
-  position: relative;
-  z-index: 1;
-
-  &--left:not(:first-child) {
-    margin-left: 30px;
   }
 }
